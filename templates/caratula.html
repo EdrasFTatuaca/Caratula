@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carátula</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="page">
+    <div class="contenido">
+        <h1>{{ titulo }}</h1>
+
+        <p><strong>Alumno:</strong> {{ nombre }}</p>
+        <p><strong>Curso:</strong> {{ curso }}</p>
+        <p><strong>Docente:</strong> {{ docente }}</p>
+        <p><strong>Institución:</strong> {{ institucion }}</p>
+
+        <div class="fecha">
+            {{ fecha }}
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

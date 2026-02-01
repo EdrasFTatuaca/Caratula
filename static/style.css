@@ -1,0 +1,31 @@
+body {
+    background: #ccc;
+    font-family: "Times New Roman", serif;
+}
+
+.page {
+    width: 215.9mm;
+    height: 279.4mm;
+    background: white;
+    margin: 20px auto;
+    padding: 40mm 30mm;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.contenido {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40mm;
+}
+
+p {
+    font-size: 16pt;
+    margin: 10mm 0;
+}
+
+.fecha {
+    margin-top: 50mm;
+    font-size: 14pt;
+}
